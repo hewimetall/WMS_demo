@@ -1,0 +1,32 @@
+.idea
+__pycache__
+/db.sqlite3
+*.pyc
+.DS_Store
+*.swp
+venv/
+
+
+.python-version
+/config/settings/local.py
+/django.log
+/latest.dump
+/.vagrant/
+node_modules/
+static
+db.sqlite3
+
+/media/
+project.tar
+
+# Remove media
+*.jpg
+*.png
+*.jpeg
+
+# Add custom file
+irk
+irk/*
+db.sqlite3
+local.py
+.env_docker_dev
