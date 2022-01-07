@@ -42,5 +42,4 @@ USER wagtail
 #   PRACTICE. The database should be migrated manually or using the release
 #   phase facilities of your hosting platform. This is used only so the
 #   Wagtail instance can be started with a simple "docker run" command.
-# CMD set -xe; sleep 10; python manage.py migrate --noinput; gunicorn shop_organick.wsgi:application
-CMD set -xe; sleep 10; python manage.py migrate --noinput; python manage.py runserver 0.0.0.0:8000
+CMD set -xe; sleep 10; python manage.py migrate --noinput; gunicorn shop_organick.wsgi:application
