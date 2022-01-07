@@ -168,3 +168,8 @@ WAGTAILSEARCH_BACKENDS = {
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
+
+
+# Set type build
+if not os.environ.get('DJANGO_SETTINGS_MODULE'):
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "shop_organick.settings.dev")

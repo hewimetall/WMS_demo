@@ -1,0 +1,4 @@
+POSTGRES_USER=wmc
+POSTGRES_DB=wmc
+POSTGRES_PASSWORD=wmc
+DJANGO_SETTINGS_MODULE="shop_organick.settings.production"
